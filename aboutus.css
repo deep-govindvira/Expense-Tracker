@@ -1,0 +1,22 @@
+* {
+    padding: 0.8%;
+    font-family: Verdana;
+    font-size:large;
+    align-items: center;
+    text-align: justify;
+    color: black;
+    background-color: white;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.Que {
+    font-size: medium;
+    font-style: bold;
+    /* color: black; */
+    /* background-color: white; */
+}
+.Ans {
+    font-size: large;
+}

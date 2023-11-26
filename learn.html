@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="serverlearn.js" defer></script>
+  <script src="learn.js" defer></script>
+  <link rel="stylesheet" href="learn.css">
+</head>
+<body>
+  <h2>Budget Tracker</h2>
+<div class="container">
+  <div class="form">
+    <h3>Add Expense</h3>
+    <input type="text" id="expense-name" placeholder="Expense name">
+    <input type="number" id="expense-amount" placeholder="Amount">
+    <button id="add-expense-btn">Add</button>
+  </div>
+  
+  <div class="budget">
+    <h3>Budget</h3>
+    <p>Total Budget: $<span id="total-budget">0</span></p>
+    <p>Remaining Budget: $<span id="remaining-budget">0</span></p>
+  </div>
+  
+  <div class="expenses">
+    <h3>Expenses</h3>
+    <ul id="expense-list"></ul>
+  </div>
+</div>
+
+</body>
+</html>
