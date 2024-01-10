@@ -4,7 +4,7 @@ Download Java from https://www.java.com/download/ie_manual.jsp
 
 Download Sqlite3 from https://www.sqlite.org/download.html
 
-Set Global path for all of this.
+Set global path for all of this.
 
 Run this command in terminal to start PHP server : php -S localhost:8080
 
