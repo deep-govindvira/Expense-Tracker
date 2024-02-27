@@ -41,13 +41,13 @@
         </tbody>
     </table>
     <table class="table table-hover" style="text-align: center;">
-            <thead>
+            <!-- <thead> -->
                 <tr>
                     <th scope="col">📚 Note 📚</th>
                     <th scope="col">🪙 Amount 🪙</td>
                     <th scope="col" colspan="2">🛠️ Modify 🛠️</th>
                 </tr>
-            </thead>
+            <!-- </thead> -->
             <tbody>
                 <tbody><?php include 'print_history.php'; ?></tbody>
             </tbody>

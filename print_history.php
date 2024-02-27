@@ -1,6 +1,4 @@
 <?php
-$command = 'javac -cp "sqlite-jdbc-3.34.0.jar;json.jar" Create.java && java -cp ".;sqlite-jdbc-3.34.0.jar;json.jar" Create';
-exec($command, $output, $returnCode);
 $db = new SQLite3('database.sqlite');
 $query = "SELECT * FROM history";
 $result = $db->query($query);
